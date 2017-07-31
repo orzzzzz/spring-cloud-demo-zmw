@@ -1,8 +1,8 @@
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\common\conf\DataSourceProperties.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\model\User.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\SimpleServer.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\common\conf\MybatisDataSource.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\dao\UserDao.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\dao\UserDaoImpl.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\domain\UserService.java
-E:\ideaWorkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\controller\UserController.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\common\conf\DataSourceProperties.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\model\User.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\controller\UserController.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\dao\UserDaoImpl.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\domain\UserService.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\common\conf\MybatisDataSource.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\SimpleServer.java
+E:\otherworkspace\spring-cloud-demo-zmw\cloud-simple-service\src\main\java\cloud\simple\server\system\dao\UserDao.java

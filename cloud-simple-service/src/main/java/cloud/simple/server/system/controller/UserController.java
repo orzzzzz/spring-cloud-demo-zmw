@@ -17,7 +17,7 @@ public class UserController {
 	
 	@RequestMapping(value="/user",method=RequestMethod.GET)
 	public List<User> readUserInfo(){
-		List<User> ls=userService.searchAll();		
+		List<User> ls=userService.searchAll();
 		return ls;
 	}
 }
