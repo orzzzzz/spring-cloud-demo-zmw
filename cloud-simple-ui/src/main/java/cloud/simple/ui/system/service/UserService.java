@@ -9,6 +9,7 @@ package cloud.simple.ui.system.service;
 import cloud.simple.ui.system.model.User;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -26,8 +27,12 @@ public class UserService {
 
     final String SERVICE_NAME = "cloud-simple-service";
 
+    @Autowired
+    private LoadBalancerClient loadBalancerClient;
+
     @HystrixCommand(fallbackMethod = "fallbackSearchAll")
     public List<User> readUserInfo() {
+        this.loadBalancerClient.choose(SERVICE_NAME);
         return restTemplate.getForObject("http://" + SERVICE_NAME + "/user", List.class);
         //return feignUserService.readUserInfo();
     }

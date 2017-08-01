@@ -25,7 +25,7 @@ public class WebApplication {
         SpringApplication.run(WebApplication.class, args);
     }
 
-    @LoadBalanced
+    @LoadBalanced   //开启负载均衡能力
     @Bean
     RestTemplate restTemplate() {
         return new RestTemplate();

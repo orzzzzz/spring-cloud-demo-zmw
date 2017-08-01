@@ -13,11 +13,11 @@ import org.springframework.web.client.RestTemplate;
  * Created by Administrator on 2017/7/31.
  */
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient //添加服务发现能力
 public class RibbonApplication {
 
     @Bean
-    @LoadBalanced
+    @LoadBalanced    //开启负载均衡
     RestTemplate restTemplate() {
         return new RestTemplate();
     }
