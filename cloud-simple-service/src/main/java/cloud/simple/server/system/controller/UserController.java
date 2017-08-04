@@ -24,4 +24,11 @@ public class UserController {
         logger.info("===========================success");
         return ls;
     }
+
+
+    @RequestMapping(value = "/hi", method = RequestMethod.GET)
+    public String hi() {
+        logger.info("===========================hi");
+        return "hi";
+    }
 }
